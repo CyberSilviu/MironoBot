@@ -1,0 +1,76 @@
+#remove html file extension https://mironobot.com/desprenoi.html
+# to https://mironobot.com/desprenoi
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/echipa.html
+# to https://mironobot.com/echipa
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/sezoane.html
+# to https://mironobot.com/sezoane
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/sponsori.html
+# to https://mironobot.com/sponsori
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/contact.html
+# to https://mironobot.com/contact
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/skystone.html
+# to https://mironobot.com/skystone
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/ultimategoal.html
+# to https://mironobot.com/ultimategoal
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/freightfrenzy.html
+# to https://mironobot.com/freightfrenzy
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/powerplay.html
+# to https://mironobot.com/powerplay
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/underconstruction.html
+# to https://mironobot.com/underconstruction
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
+
+#remove html file extension https://mironobot.com/index.html
+# to https://mironobot.com/index
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC, L]
